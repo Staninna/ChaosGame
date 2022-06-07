@@ -83,3 +83,5 @@ fn view(app: &App, model: &Model, frame: Frame) {
     }
     draw.to_frame(app, &frame).unwrap();
 }
+
+// TODO when https://github.com/nannou-org/nannou/issues/383 is merged add gui and other modes
