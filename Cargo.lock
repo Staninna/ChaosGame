@@ -160,14 +160,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "fd16c4719339c4530435d38e511904438d07cce7950afa3718a84ac36c10e89e"
 
 [[package]]
-name = "chaos_game"
-version = "0.1.0"
-dependencies = [
- "nannou",
- "rand 0.8.5",
-]
-
-[[package]]
 name = "cocoa"
 version = "0.24.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1969,6 +1961,14 @@ name = "version_check"
 version = "0.9.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f"
+
+[[package]]
+name = "visual_rust"
+version = "0.1.0"
+dependencies = [
+ "nannou",
+ "rand 0.8.5",
+]
 
 [[package]]
 name = "walkdir"
